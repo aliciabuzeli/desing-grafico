@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    left: 20px;
+    position: relative;
+    
+}
+
+header h2 {
+    position: absolute;
+    top: 35px;
+    left: 130px;
+}
+header nav{
+    position: absolute;
+    top: 40px;
+    right: 100px;
+}
+
+img {
+    width: 200px;
+}
+
+.adidas {
+    position: absolute;
+    left: 40px;
+    top: 150px;
+    background-color: #fbd0df;
+    padding: 20px;
+    border-radius: 20px;
+    height: 300px;
+    box-shadow: 7px 7px 7px #848484;
+   
+}
+.adidas img {
+    width: 250px;
+}
+
+.adidas:hover {
+    scale: 1.05;
+}
+
+.nike{
+    position: absolute;
+    left: 350px;
+    top: 150px;
+    background-color: #fbd0df;
+    padding: 20px;
+    border-radius: 20px;
+    height: 300px;
+    box-shadow: 7px 7px 7px #848484;
+}
+.nike img {
+    width: 300px;
+}
+
+.nike:hover {
+    scale: 1.05;
+}
+
+.android {
+    position: absolute;
+    right: 40px;
+    top: 150px;
+    background-color: #fbd0df;
+    padding: 20px;
+    border-radius: 20px;
+    height: 300px;
+    box-shadow: 7px 7px 7px #848484;
+}
+
+.android:hover {
+    scale: 1.05;
+}
+.apple{
+    position: absolute;
+    right: 310px;
+    top: 150px;
+    background-color: #fbd0df;
+    padding: 20px;
+    border-radius: 20px;
+    height: 300px;
+    box-shadow: 7px 7px 7px #848484;
+}
+
+.apple:hover {
+    scale: 1.05;
+}
+
+header nav a {
+    margin-left: 50px;
+}
+
+header nav a:hover {
+   animation: dixx 5s linear;
+   animation-iteration-count: infinite;
+
+}
+
+@keyframes dixx {
+    0% {color: #000;}
+    25% {color: #f00;}
+    50% {color: rgb(191, 255, 0);}
+    75% {color: rgb(0, 195, 255);}
+    100% {color: #000;}
+}
+
+header{
+    background-color: #faf4f1;
+    padding: 5px;
+}
+
+body {
+    background-color: #fbeee6;
+}
+
+h2 {
+    margin: 5px;
+    text-indent: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+    text-indent: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+form {
+    background-color: white;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+}
+
+form input {
+    display: block;
+    margin: 10px auto;
+}
+
+label {
+    display: block;
+    margin: 10px;
+    text-align: center;
+}
+
+select {
+    display: block;
+    margin: 10px auto;
+}
+
+form button {
+    margin: 10px auto;
+    display: block;
+    background-color: #fbeee6;
+}
+
+.paragrafo {
+    position: absolute;
+    top: 550px;
+}
+
+.h2 {
+    position: absolute;
+    top: 500px;
+}
